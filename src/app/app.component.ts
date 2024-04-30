@@ -14,7 +14,8 @@ export class AppComponent {
  apiURL : string;
 
  constructor(private http: HttpClient) {
- this.apiURL = 'http://localhost:3000';
+ this.apiURL = 'todoapp.com
+';
  this.READ_tarefas();
  }
 
